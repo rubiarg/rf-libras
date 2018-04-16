@@ -1,0 +1,1233 @@
+C:\Users\rubiarg\Anaconda3\envs\tensorflow\python.exe C:/Users/rubiarg/PycharmProjects/randomforest/rf-libras-ex4.py
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+[Parallel(n_jobs=-1)]: Done  42 tasks      | elapsed:   13.9s
+[Parallel(n_jobs=-1)]: Done 192 tasks      | elapsed:  1.2min
+[Parallel(n_jobs=-1)]: Done 300 out of 300 | elapsed:  1.8min finished
+Best Params ::
+{'bootstrap': True,
+ 'max_depth': None,
+ 'max_features': 'log2',
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 2,
+ 'n_estimators': 2000}
+Train Accuracy ::  1.0
+Test Accuracy  ::  70.0
+Confusion matrix ::
+ [[2 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 1 0 0 1]
+ [0 0 1 0 0 0 0 0 0 1]
+ [0 0 0 2 0 0 0 0 0 0]
+ [0 0 0 0 2 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 1 0]
+ [0 0 0 0 0 0 2 0 0 0]
+ [0 0 0 0 0 0 0 2 0 0]
+ [0 0 0 0 0 0 0 0 2 0]
+ [0 0 0 0 1 0 0 0 0 1]]
+C:\Users\rubiarg\Anaconda3\envs\tensorflow\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+                       precision    recall  f1-score   support
+
+  'precision', 'predicted', average, warn_for)
+   data\sampleacalmar       1.00      1.00      1.00         2
+    data\sampleacusar       0.00      0.00      0.00         2
+ data\sampleaniquilar       1.00      0.50      0.67         2
+data\sampleapaixonado       1.00      1.00      1.00         2
+  data\sampleengordar       0.50      1.00      0.67         2
+data\samplefelicidade       0.00      0.00      0.00         2
+     data\samplemagro       0.67      1.00      0.80         2
+   data\samplesortudo       1.00      1.00      1.00         2
+  data\samplesurpresa       0.67      1.00      0.80         2
+   data\samplezangado       0.33      0.50      0.40         2
+
+          avg / total       0.62      0.70      0.63        20
+
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+[Parallel(n_jobs=-1)]: Done  42 tasks      | elapsed:   13.3s
+[Parallel(n_jobs=-1)]: Done 192 tasks      | elapsed:  1.3min
+[Parallel(n_jobs=-1)]: Done 300 out of 300 | elapsed:  2.0min finished
+Best Params ::
+{'bootstrap': True,
+ 'max_depth': 30,
+ 'max_features': 'log2',
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 5,
+ 'n_estimators': 1000}
+Train Accuracy ::  1.0
+C:\Users\rubiarg\Anaconda3\envs\tensorflow\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+Test Accuracy  ::  70.0
+  'precision', 'predicted', average, warn_for)
+Confusion matrix ::
+ [[2 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 1 0 0 1]
+ [0 0 1 0 0 0 0 0 0 1]
+ [0 0 0 2 0 0 0 0 0 0]
+ [0 0 0 0 2 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 1 0]
+ [0 0 0 0 0 0 2 0 0 0]
+ [0 0 0 0 0 0 0 2 0 0]
+ [0 0 0 0 0 0 0 0 2 0]
+ [0 0 0 0 1 0 0 0 0 1]]
+                       precision    recall  f1-score   support
+
+   data\sampleacalmar       1.00      1.00      1.00         2
+    data\sampleacusar       0.00      0.00      0.00         2
+ data\sampleaniquilar       1.00      0.50      0.67         2
+data\sampleapaixonado       1.00      1.00      1.00         2
+  data\sampleengordar       0.50      1.00      0.67         2
+data\samplefelicidade       0.00      0.00      0.00         2
+     data\samplemagro       0.67      1.00      0.80         2
+   data\samplesortudo       1.00      1.00      1.00         2
+  data\samplesurpresa       0.67      1.00      0.80         2
+   data\samplezangado       0.33      0.50      0.40         2
+
+          avg / total       0.62      0.70      0.63        20
+
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+[Parallel(n_jobs=-1)]: Done  42 tasks      | elapsed:   19.2s
+[Parallel(n_jobs=-1)]: Done 192 tasks      | elapsed:  1.2min
+[Parallel(n_jobs=-1)]: Done 300 out of 300 | elapsed:  1.9min finished
+Best Params ::
+{'bootstrap': True,
+ 'max_depth': 80,
+ 'max_features': 'log2',
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 5,
+ 'n_estimators': 200}
+C:\Users\rubiarg\Anaconda3\envs\tensorflow\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+Train Accuracy ::  1.0
+  'precision', 'predicted', average, warn_for)
+Test Accuracy  ::  70.0
+Confusion matrix ::
+ [[2 0 0 0 0 0 0 0 0 0]
+ [0 1 0 0 0 0 1 0 0 0]
+ [0 0 1 0 0 0 0 0 0 1]
+ [1 0 0 1 0 0 0 0 0 0]
+ [0 0 0 0 2 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 1 0]
+ [0 0 0 0 0 0 2 0 0 0]
+ [0 0 0 0 0 0 0 2 0 0]
+ [0 0 0 0 0 0 0 0 2 0]
+ [0 0 0 0 1 0 0 0 0 1]]
+                       precision    recall  f1-score   support
+
+   data\sampleacalmar       0.67      1.00      0.80         2
+    data\sampleacusar       1.00      0.50      0.67         2
+ data\sampleaniquilar       1.00      0.50      0.67         2
+data\sampleapaixonado       1.00      0.50      0.67         2
+  data\sampleengordar       0.50      1.00      0.67         2
+data\samplefelicidade       0.00      0.00      0.00         2
+     data\samplemagro       0.67      1.00      0.80         2
+   data\samplesortudo       1.00      1.00      1.00         2
+  data\samplesurpresa       0.67      1.00      0.80         2
+   data\samplezangado       0.50      0.50      0.50         2
+
+          avg / total       0.70      0.70      0.66        20
+
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+[Parallel(n_jobs=-1)]: Done  42 tasks      | elapsed:   17.7s
+[Parallel(n_jobs=-1)]: Done 192 tasks      | elapsed:  1.2min
+[Parallel(n_jobs=-1)]: Done 300 out of 300 | elapsed:  1.9min finished
+Best Params ::
+{'bootstrap': True,
+ 'max_depth': 30,
+ 'max_features': 'log2',
+ 'min_samples_leaf': 2,
+ 'min_samples_split': 2,
+ 'n_estimators': 600}
+C:\Users\rubiarg\Anaconda3\envs\tensorflow\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+Train Accuracy ::  1.0
+  'precision', 'predicted', average, warn_for)
+Test Accuracy  ::  75.0
+Confusion matrix ::
+ [[2 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 1 0 0 1]
+ [0 0 2 0 0 0 0 0 0 0]
+ [0 0 0 2 0 0 0 0 0 0]
+ [0 0 0 0 2 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 1 0]
+ [0 0 0 0 0 0 2 0 0 0]
+ [0 0 0 0 0 0 0 2 0 0]
+ [0 0 0 0 0 0 0 0 2 0]
+ [0 0 0 0 1 0 0 0 0 1]]
+                       precision    recall  f1-score   support
+
+   data\sampleacalmar       1.00      1.00      1.00         2
+    data\sampleacusar       0.00      0.00      0.00         2
+ data\sampleaniquilar       1.00      1.00      1.00         2
+data\sampleapaixonado       1.00      1.00      1.00         2
+  data\sampleengordar       0.50      1.00      0.67         2
+data\samplefelicidade       0.00      0.00      0.00         2
+     data\samplemagro       0.67      1.00      0.80         2
+   data\samplesortudo       1.00      1.00      1.00         2
+  data\samplesurpresa       0.67      1.00      0.80         2
+   data\samplezangado       0.50      0.50      0.50         2
+
+          avg / total       0.63      0.75      0.68        20
+
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+[Parallel(n_jobs=-1)]: Done  42 tasks      | elapsed:   16.9s
+[Parallel(n_jobs=-1)]: Done 192 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=-1)]: Done 300 out of 300 | elapsed:  1.8min finished
+Best Params ::
+{'bootstrap': True,
+ 'max_depth': 10,
+ 'max_features': 'log2',
+ 'min_samples_leaf': 2,
+ 'min_samples_split': 2,
+ 'n_estimators': 600}
+C:\Users\rubiarg\Anaconda3\envs\tensorflow\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+Train Accuracy ::  1.0
+  'precision', 'predicted', average, warn_for)
+Test Accuracy  ::  65.0
+Confusion matrix ::
+ [[2 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 1 0 0 1]
+ [0 0 1 0 0 0 0 0 0 1]
+ [1 0 0 1 0 0 0 0 0 0]
+ [0 0 0 0 2 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 1 0]
+ [0 0 0 0 0 0 2 0 0 0]
+ [0 0 0 0 0 0 0 2 0 0]
+ [0 0 0 0 0 0 0 0 2 0]
+ [0 0 0 0 1 0 0 0 0 1]]
+                       precision    recall  f1-score   support
+
+   data\sampleacalmar       0.67      1.00      0.80         2
+    data\sampleacusar       0.00      0.00      0.00         2
+ data\sampleaniquilar       1.00      0.50      0.67         2
+data\sampleapaixonado       1.00      0.50      0.67         2
+  data\sampleengordar       0.50      1.00      0.67         2
+data\samplefelicidade       0.00      0.00      0.00         2
+     data\samplemagro       0.67      1.00      0.80         2
+   data\samplesortudo       1.00      1.00      1.00         2
+  data\samplesurpresa       0.67      1.00      0.80         2
+   data\samplezangado       0.33      0.50      0.40         2
+
+          avg / total       0.58      0.65      0.58        20
+
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+[Parallel(n_jobs=-1)]: Done  42 tasks      | elapsed:   15.4s
+[Parallel(n_jobs=-1)]: Done 192 tasks      | elapsed:  1.2min
+[Parallel(n_jobs=-1)]: Done 300 out of 300 | elapsed:  1.8min finished
+Best Params ::
+{'bootstrap': False,
+ 'max_depth': 70,
+ 'max_features': 'log2',
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 5,
+ 'n_estimators': 600}
+Train Accuracy ::  1.0
+C:\Users\rubiarg\Anaconda3\envs\tensorflow\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+Test Accuracy  ::  70.0
+  'precision', 'predicted', average, warn_for)
+Confusion matrix ::
+ [[2 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 1 0 0 1]
+ [0 0 1 0 0 0 0 0 0 1]
+ [0 0 0 2 0 0 0 0 0 0]
+ [0 0 0 0 2 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 1 0]
+ [0 0 0 0 0 0 2 0 0 0]
+ [0 0 0 0 0 0 0 2 0 0]
+ [0 0 0 0 0 0 0 0 2 0]
+ [0 0 0 0 1 0 0 0 0 1]]
+                       precision    recall  f1-score   support
+
+   data\sampleacalmar       1.00      1.00      1.00         2
+    data\sampleacusar       0.00      0.00      0.00         2
+ data\sampleaniquilar       1.00      0.50      0.67         2
+data\sampleapaixonado       1.00      1.00      1.00         2
+  data\sampleengordar       0.50      1.00      0.67         2
+data\samplefelicidade       0.00      0.00      0.00         2
+     data\samplemagro       0.67      1.00      0.80         2
+   data\samplesortudo       1.00      1.00      1.00         2
+  data\samplesurpresa       0.67      1.00      0.80         2
+   data\samplezangado       0.33      0.50      0.40         2
+
+          avg / total       0.62      0.70      0.63        20
+
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+[Parallel(n_jobs=-1)]: Done  42 tasks      | elapsed:   14.3s
+[Parallel(n_jobs=-1)]: Done 192 tasks      | elapsed:  1.2min
+[Parallel(n_jobs=-1)]: Done 300 out of 300 | elapsed:  1.8min finished
+Best Params ::
+{'bootstrap': True,
+ 'max_depth': 10,
+ 'max_features': 'log2',
+ 'min_samples_leaf': 2,
+ 'min_samples_split': 2,
+ 'n_estimators': 1000}
+Train Accuracy ::  1.0
+Test Accuracy  ::  75.0
+Confusion matrix ::
+ [[2 0 0 0 0 0 0 0 0 0]
+C:\Users\rubiarg\Anaconda3\envs\tensorflow\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+ [0 1 0 0 0 0 1 0 0 0]
+ [0 0 1 0 0 0 0 0 0 1]
+ [0 0 0 2 0 0 0 0 0 0]
+ [0 0 0 0 2 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 1 0]
+ [0 0 0 0 0 0 2 0 0 0]
+ [0 0 0 0 0 0 0 2 0 0]
+ [0 0 0 0 0 0 0 0 2 0]
+ [0 0 0 0 1 0 0 0 0 1]]
+                       precision    recall  f1-score   support
+
+   data\sampleacalmar       1.00      1.00      1.00         2
+    data\sampleacusar       1.00      0.50      0.67         2
+ data\sampleaniquilar       1.00      0.50      0.67         2
+data\sampleapaixonado       1.00      1.00      1.00         2
+  data\sampleengordar       0.50      1.00      0.67         2
+data\samplefelicidade       0.00      0.00      0.00         2
+     data\samplemagro       0.67      1.00      0.80         2
+   data\samplesortudo       1.00      1.00      1.00         2
+  data\samplesurpresa       0.67      1.00      0.80         2
+   data\samplezangado       0.50      0.50      0.50         2
+
+          avg / total       0.73      0.75      0.71        20
+
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+[Parallel(n_jobs=-1)]: Done  42 tasks      | elapsed:   17.7s
+[Parallel(n_jobs=-1)]: Done 192 tasks      | elapsed:  1.3min
+[Parallel(n_jobs=-1)]: Done 300 out of 300 | elapsed:  2.0min finished
+Best Params ::
+{'bootstrap': True,
+ 'max_depth': 110,
+ 'max_features': 'log2',
+ 'min_samples_leaf': 2,
+ 'min_samples_split': 5,
+ 'n_estimators': 600}
+C:\Users\rubiarg\Anaconda3\envs\tensorflow\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+Train Accuracy ::  1.0
+Test Accuracy  ::  70.0
+Confusion matrix ::
+  'precision', 'predicted', average, warn_for)
+ [[2 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 1 0 0 1]
+ [0 0 1 0 0 0 0 0 0 1]
+ [0 0 0 2 0 0 0 0 0 0]
+ [0 0 0 0 2 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 1 0]
+ [0 0 0 0 0 0 2 0 0 0]
+ [0 0 0 0 0 0 0 2 0 0]
+ [0 0 0 0 0 0 0 0 2 0]
+ [0 0 0 0 1 0 0 0 0 1]]
+                       precision    recall  f1-score   support
+
+   data\sampleacalmar       1.00      1.00      1.00         2
+    data\sampleacusar       0.00      0.00      0.00         2
+ data\sampleaniquilar       1.00      0.50      0.67         2
+data\sampleapaixonado       1.00      1.00      1.00         2
+  data\sampleengordar       0.50      1.00      0.67         2
+data\samplefelicidade       0.00      0.00      0.00         2
+     data\samplemagro       0.67      1.00      0.80         2
+   data\samplesortudo       1.00      1.00      1.00         2
+  data\samplesurpresa       0.67      1.00      0.80         2
+   data\samplezangado       0.33      0.50      0.40         2
+
+          avg / total       0.62      0.70      0.63        20
+
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+[Parallel(n_jobs=-1)]: Done  42 tasks      | elapsed:   14.2s
+[Parallel(n_jobs=-1)]: Done 192 tasks      | elapsed:  1.2min
+[Parallel(n_jobs=-1)]: Done 300 out of 300 | elapsed:  1.9min finished
+Best Params ::
+{'bootstrap': True,
+ 'max_depth': 20,
+ 'max_features': 'log2',
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 5,
+ 'n_estimators': 400}
+Train Accuracy ::  1.0
+C:\Users\rubiarg\Anaconda3\envs\tensorflow\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+Test Accuracy  ::  70.0
+  'precision', 'predicted', average, warn_for)
+Confusion matrix ::
+ [[2 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 1 0 0 1]
+ [0 0 1 0 0 0 0 0 0 1]
+ [0 0 0 2 0 0 0 0 0 0]
+ [0 0 0 0 2 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 1 0]
+ [0 0 0 0 0 0 2 0 0 0]
+ [0 0 0 0 0 0 0 2 0 0]
+ [0 0 0 0 0 0 0 0 2 0]
+ [0 0 0 0 1 0 0 0 0 1]]
+                       precision    recall  f1-score   support
+
+   data\sampleacalmar       1.00      1.00      1.00         2
+    data\sampleacusar       0.00      0.00      0.00         2
+ data\sampleaniquilar       1.00      0.50      0.67         2
+data\sampleapaixonado       1.00      1.00      1.00         2
+  data\sampleengordar       0.50      1.00      0.67         2
+data\samplefelicidade       0.00      0.00      0.00         2
+     data\samplemagro       0.67      1.00      0.80         2
+   data\samplesortudo       1.00      1.00      1.00         2
+  data\samplesurpresa       0.67      1.00      0.80         2
+   data\samplezangado       0.33      0.50      0.40         2
+
+          avg / total       0.62      0.70      0.63        20
+
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+[Parallel(n_jobs=-1)]: Done  42 tasks      | elapsed:   18.0s
+[Parallel(n_jobs=-1)]: Done 192 tasks      | elapsed:  1.3min
+[Parallel(n_jobs=-1)]: Done 300 out of 300 | elapsed:  1.9min finished
+Best Params ::
+{'bootstrap': True,
+ 'max_depth': 40,
+ 'max_features': 'log2',
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 2,
+ 'n_estimators': 200}
+Train Accuracy ::  1.0
+C:\Users\rubiarg\Anaconda3\envs\tensorflow\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+Test Accuracy  ::  70.0
+  'precision', 'predicted', average, warn_for)
+Confusion matrix ::
+ [[2 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 1 0 0 1]
+ [0 0 1 0 0 0 0 0 0 1]
+ [0 0 0 2 0 0 0 0 0 0]
+ [0 0 0 0 2 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 1 0]
+ [0 0 0 0 0 0 2 0 0 0]
+ [0 0 0 0 0 0 0 2 0 0]
+ [0 0 0 0 0 0 0 0 2 0]
+ [0 0 0 0 1 0 0 0 0 1]]
+                       precision    recall  f1-score   support
+
+   data\sampleacalmar       1.00      1.00      1.00         2
+    data\sampleacusar       0.00      0.00      0.00         2
+ data\sampleaniquilar       1.00      0.50      0.67         2
+data\sampleapaixonado       1.00      1.00      1.00         2
+  data\sampleengordar       0.50      1.00      0.67         2
+data\samplefelicidade       0.00      0.00      0.00         2
+     data\samplemagro       0.67      1.00      0.80         2
+   data\samplesortudo       1.00      1.00      1.00         2
+  data\samplesurpresa       0.67      1.00      0.80         2
+   data\samplezangado       0.33      0.50      0.40         2
+
+          avg / total       0.62      0.70      0.63        20
+
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+[Parallel(n_jobs=-1)]: Done  42 tasks      | elapsed:   16.7s
+[Parallel(n_jobs=-1)]: Done 192 tasks      | elapsed:  1.3min
+[Parallel(n_jobs=-1)]: Done 300 out of 300 | elapsed:  2.0min finished
+Best Params ::
+{'bootstrap': True,
+ 'max_depth': 60,
+ 'max_features': 'log2',
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 2,
+ 'n_estimators': 1000}
+Train Accuracy ::  1.0
+C:\Users\rubiarg\Anaconda3\envs\tensorflow\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+Test Accuracy  ::  70.0
+  'precision', 'predicted', average, warn_for)
+Confusion matrix ::
+ [[2 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 1 0 0 1]
+ [0 0 1 0 0 0 0 0 0 1]
+ [0 0 0 2 0 0 0 0 0 0]
+ [0 0 0 0 2 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 1 0]
+ [0 0 0 0 0 0 2 0 0 0]
+ [0 0 0 0 0 0 0 2 0 0]
+ [0 0 0 0 0 0 0 0 2 0]
+ [0 0 0 0 1 0 0 0 0 1]]
+                       precision    recall  f1-score   support
+
+   data\sampleacalmar       1.00      1.00      1.00         2
+    data\sampleacusar       0.00      0.00      0.00         2
+ data\sampleaniquilar       1.00      0.50      0.67         2
+data\sampleapaixonado       1.00      1.00      1.00         2
+  data\sampleengordar       0.50      1.00      0.67         2
+data\samplefelicidade       0.00      0.00      0.00         2
+     data\samplemagro       0.67      1.00      0.80         2
+   data\samplesortudo       1.00      1.00      1.00         2
+  data\samplesurpresa       0.67      1.00      0.80         2
+   data\samplezangado       0.33      0.50      0.40         2
+
+          avg / total       0.62      0.70      0.63        20
+
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+[Parallel(n_jobs=-1)]: Done  42 tasks      | elapsed:   14.8s
+[Parallel(n_jobs=-1)]: Done 192 tasks      | elapsed:  1.2min
+[Parallel(n_jobs=-1)]: Done 300 out of 300 | elapsed:  1.9min finished
+Best Params ::
+{'bootstrap': True,
+ 'max_depth': 90,
+ 'max_features': 'log2',
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 2,
+ 'n_estimators': 400}
+Train Accuracy ::  1.0
+C:\Users\rubiarg\Anaconda3\envs\tensorflow\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+Test Accuracy  ::  70.0
+  'precision', 'predicted', average, warn_for)
+Confusion matrix ::
+ [[2 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 1 0 0 1]
+ [0 0 1 0 0 0 0 0 0 1]
+ [0 0 0 2 0 0 0 0 0 0]
+ [0 0 0 0 2 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 1 0]
+ [0 0 0 0 0 0 2 0 0 0]
+ [0 0 0 0 0 0 0 2 0 0]
+ [0 0 0 0 0 0 0 0 2 0]
+ [0 0 0 0 1 0 0 0 0 1]]
+                       precision    recall  f1-score   support
+
+   data\sampleacalmar       1.00      1.00      1.00         2
+    data\sampleacusar       0.00      0.00      0.00         2
+ data\sampleaniquilar       1.00      0.50      0.67         2
+data\sampleapaixonado       1.00      1.00      1.00         2
+  data\sampleengordar       0.50      1.00      0.67         2
+data\samplefelicidade       0.00      0.00      0.00         2
+     data\samplemagro       0.67      1.00      0.80         2
+   data\samplesortudo       1.00      1.00      1.00         2
+  data\samplesurpresa       0.67      1.00      0.80         2
+   data\samplezangado       0.33      0.50      0.40         2
+
+          avg / total       0.62      0.70      0.63        20
+
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+[Parallel(n_jobs=-1)]: Done  42 tasks      | elapsed:   15.6s
+[Parallel(n_jobs=-1)]: Done 192 tasks      | elapsed:  1.2min
+[Parallel(n_jobs=-1)]: Done 300 out of 300 | elapsed:  1.9min finished
+Best Params ::
+{'bootstrap': True,
+ 'max_depth': 100,
+ 'max_features': 'log2',
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 2,
+ 'n_estimators': 1800}
+Train Accuracy ::  1.0
+Test Accuracy  ::  75.0
+Confusion matrix ::
+ [[2 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 1 0 0 1]
+ [0 0 2 0 0 0 0 0 0 0]
+ [0 0 0 2 0 0 0 0 0 0]
+ [0 0 0 0 2 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 1 0]
+ [0 0 0 0 0 0 2 0 0 0]
+ [0 0 0 0 0 0 0 2 0 0]
+ [0 0 0 0 0 0 0 0 2 0]
+ [0 0 0 0 1 0 0 0 0 1]]
+                       precision    recall  f1-score   support
+C:\Users\rubiarg\Anaconda3\envs\tensorflow\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+
+   data\sampleacalmar       1.00      1.00      1.00         2
+    data\sampleacusar       0.00      0.00      0.00         2
+ data\sampleaniquilar       1.00      1.00      1.00         2
+  'precision', 'predicted', average, warn_for)
+data\sampleapaixonado       1.00      1.00      1.00         2
+  data\sampleengordar       0.50      1.00      0.67         2
+data\samplefelicidade       0.00      0.00      0.00         2
+     data\samplemagro       0.67      1.00      0.80         2
+   data\samplesortudo       1.00      1.00      1.00         2
+  data\samplesurpresa       0.67      1.00      0.80         2
+   data\samplezangado       0.50      0.50      0.50         2
+
+          avg / total       0.63      0.75      0.68        20
+
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+[Parallel(n_jobs=-1)]: Done  42 tasks      | elapsed:   15.2s
+[Parallel(n_jobs=-1)]: Done 192 tasks      | elapsed:  1.3min
+[Parallel(n_jobs=-1)]: Done 300 out of 300 | elapsed:  2.1min finished
+Best Params ::
+{'bootstrap': True,
+ 'max_depth': None,
+ 'max_features': 'log2',
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 5,
+ 'n_estimators': 1000}
+C:\Users\rubiarg\Anaconda3\envs\tensorflow\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Train Accuracy ::  1.0
+Test Accuracy  ::  70.0
+Confusion matrix ::
+ [[2 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 1 0 0 1]
+ [0 0 1 0 0 0 0 0 0 1]
+ [0 0 0 2 0 0 0 0 0 0]
+ [0 0 0 0 2 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 1 0]
+ [0 0 0 0 0 0 2 0 0 0]
+ [0 0 0 0 0 0 0 2 0 0]
+ [0 0 0 0 0 0 0 0 2 0]
+ [0 0 0 0 1 0 0 0 0 1]]
+                       precision    recall  f1-score   support
+
+   data\sampleacalmar       1.00      1.00      1.00         2
+    data\sampleacusar       0.00      0.00      0.00         2
+ data\sampleaniquilar       1.00      0.50      0.67         2
+data\sampleapaixonado       1.00      1.00      1.00         2
+  data\sampleengordar       0.50      1.00      0.67         2
+data\samplefelicidade       0.00      0.00      0.00         2
+     data\samplemagro       0.67      1.00      0.80         2
+   data\samplesortudo       1.00      1.00      1.00         2
+  data\samplesurpresa       0.67      1.00      0.80         2
+   data\samplezangado       0.33      0.50      0.40         2
+
+          avg / total       0.62      0.70      0.63        20
+
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+[Parallel(n_jobs=-1)]: Done  42 tasks      | elapsed:   20.1s
+[Parallel(n_jobs=-1)]: Done 192 tasks      | elapsed:  1.2min
+[Parallel(n_jobs=-1)]: Done 300 out of 300 | elapsed:  1.9min finished
+Best Params ::
+{'bootstrap': True,
+ 'max_depth': None,
+ 'max_features': 'log2',
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 2,
+ 'n_estimators': 1400}
+Train Accuracy ::  1.0
+Test Accuracy  ::  70.0
+Confusion matrix ::
+C:\Users\rubiarg\Anaconda3\envs\tensorflow\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+ [[2 0 0 0 0 0 0 0 0 0]
+  'precision', 'predicted', average, warn_for)
+ [0 0 0 0 0 0 1 0 0 1]
+ [0 0 1 0 0 0 0 0 0 1]
+ [0 0 0 2 0 0 0 0 0 0]
+ [0 0 0 0 2 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 1 0]
+ [0 0 0 0 0 0 2 0 0 0]
+ [0 0 0 0 0 0 0 2 0 0]
+ [0 0 0 0 0 0 0 0 2 0]
+ [0 0 0 0 1 0 0 0 0 1]]
+                       precision    recall  f1-score   support
+
+   data\sampleacalmar       1.00      1.00      1.00         2
+    data\sampleacusar       0.00      0.00      0.00         2
+ data\sampleaniquilar       1.00      0.50      0.67         2
+data\sampleapaixonado       1.00      1.00      1.00         2
+  data\sampleengordar       0.50      1.00      0.67         2
+data\samplefelicidade       0.00      0.00      0.00         2
+     data\samplemagro       0.67      1.00      0.80         2
+   data\samplesortudo       1.00      1.00      1.00         2
+  data\samplesurpresa       0.67      1.00      0.80         2
+   data\samplezangado       0.33      0.50      0.40         2
+
+          avg / total       0.62      0.70      0.63        20
+
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+[Parallel(n_jobs=-1)]: Done  42 tasks      | elapsed:   18.0s
+[Parallel(n_jobs=-1)]: Done 192 tasks      | elapsed:  1.4min
+[Parallel(n_jobs=-1)]: Done 300 out of 300 | elapsed:  2.0min finished
+Best Params ::
+{'bootstrap': True,
+ 'max_depth': 110,
+ 'max_features': 'log2',
+ 'min_samples_leaf': 2,
+ 'min_samples_split': 2,
+ 'n_estimators': 400}
+Train Accuracy ::  1.0
+C:\Users\rubiarg\Anaconda3\envs\tensorflow\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+Test Accuracy  ::  70.0
+  'precision', 'predicted', average, warn_for)
+Confusion matrix ::
+ [[2 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 1 0 0 1]
+ [0 0 1 0 0 0 0 0 0 1]
+ [0 0 0 2 0 0 0 0 0 0]
+ [0 0 0 0 2 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 1 0]
+ [0 0 0 0 0 0 2 0 0 0]
+ [0 0 0 0 0 0 0 2 0 0]
+ [0 0 0 0 0 0 0 0 2 0]
+ [0 0 0 0 1 0 0 0 0 1]]
+                       precision    recall  f1-score   support
+
+   data\sampleacalmar       1.00      1.00      1.00         2
+    data\sampleacusar       0.00      0.00      0.00         2
+ data\sampleaniquilar       1.00      0.50      0.67         2
+data\sampleapaixonado       1.00      1.00      1.00         2
+  data\sampleengordar       0.50      1.00      0.67         2
+data\samplefelicidade       0.00      0.00      0.00         2
+     data\samplemagro       0.67      1.00      0.80         2
+   data\samplesortudo       1.00      1.00      1.00         2
+  data\samplesurpresa       0.67      1.00      0.80         2
+   data\samplezangado       0.33      0.50      0.40         2
+
+          avg / total       0.62      0.70      0.63        20
+
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+[Parallel(n_jobs=-1)]: Done  42 tasks      | elapsed:   16.5s
+[Parallel(n_jobs=-1)]: Done 192 tasks      | elapsed:  1.2min
+[Parallel(n_jobs=-1)]: Done 300 out of 300 | elapsed:  1.8min finished
+Best Params ::
+{'bootstrap': False,
+ 'max_depth': 20,
+ 'max_features': 'log2',
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 2,
+ 'n_estimators': 1400}
+Train Accuracy ::  1.0
+C:\Users\rubiarg\Anaconda3\envs\tensorflow\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Test Accuracy  ::  75.0
+Confusion matrix ::
+ [[2 0 0 0 0 0 0 0 0 0]
+ [0 1 0 0 0 0 0 0 0 1]
+ [0 0 1 0 0 0 0 0 0 1]
+ [0 0 0 2 0 0 0 0 0 0]
+ [0 0 0 0 2 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 1 0]
+ [0 0 0 0 0 0 2 0 0 0]
+ [0 0 0 0 0 0 0 2 0 0]
+ [0 0 0 0 0 0 0 0 2 0]
+ [0 0 0 0 1 0 0 0 0 1]]
+                       precision    recall  f1-score   support
+
+   data\sampleacalmar       1.00      1.00      1.00         2
+    data\sampleacusar       1.00      0.50      0.67         2
+ data\sampleaniquilar       1.00      0.50      0.67         2
+data\sampleapaixonado       1.00      1.00      1.00         2
+  data\sampleengordar       0.50      1.00      0.67         2
+data\samplefelicidade       0.00      0.00      0.00         2
+     data\samplemagro       1.00      1.00      1.00         2
+   data\samplesortudo       1.00      1.00      1.00         2
+  data\samplesurpresa       0.67      1.00      0.80         2
+   data\samplezangado       0.33      0.50      0.40         2
+
+          avg / total       0.75      0.75      0.72        20
+
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+[Parallel(n_jobs=-1)]: Done  42 tasks      | elapsed:   16.5s
+[Parallel(n_jobs=-1)]: Done 192 tasks      | elapsed:  1.3min
+[Parallel(n_jobs=-1)]: Done 300 out of 300 | elapsed:  2.0min finished
+Best Params ::
+{'bootstrap': True,
+ 'max_depth': 60,
+ 'max_features': 'log2',
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 2,
+ 'n_estimators': 1600}
+C:\Users\rubiarg\Anaconda3\envs\tensorflow\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Train Accuracy ::  1.0
+Test Accuracy  ::  70.0
+Confusion matrix ::
+ [[2 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 1 0 0 1]
+ [0 0 1 0 0 0 0 0 0 1]
+ [0 0 0 2 0 0 0 0 0 0]
+ [0 0 0 0 2 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 1 0]
+ [0 0 0 0 0 0 2 0 0 0]
+ [0 0 0 0 0 0 0 2 0 0]
+ [0 0 0 0 0 0 0 0 2 0]
+ [0 0 0 0 1 0 0 0 0 1]]
+                       precision    recall  f1-score   support
+
+   data\sampleacalmar       1.00      1.00      1.00         2
+    data\sampleacusar       0.00      0.00      0.00         2
+ data\sampleaniquilar       1.00      0.50      0.67         2
+data\sampleapaixonado       1.00      1.00      1.00         2
+  data\sampleengordar       0.50      1.00      0.67         2
+data\samplefelicidade       0.00      0.00      0.00         2
+     data\samplemagro       0.67      1.00      0.80         2
+   data\samplesortudo       1.00      1.00      1.00         2
+  data\samplesurpresa       0.67      1.00      0.80         2
+   data\samplezangado       0.33      0.50      0.40         2
+
+          avg / total       0.62      0.70      0.63        20
+
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+[Parallel(n_jobs=-1)]: Done  42 tasks      | elapsed:   17.9s
+[Parallel(n_jobs=-1)]: Done 192 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=-1)]: Done 300 out of 300 | elapsed:  2.0min finished
+Best Params ::
+{'bootstrap': True,
+ 'max_depth': 90,
+ 'max_features': 'log2',
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 5,
+ 'n_estimators': 1200}
+Train Accuracy ::  1.0
+Test Accuracy  ::  70.0
+Confusion matrix ::
+ [[2 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 1 0 0 1]
+ [0 0 1 0 0 0 0 0 0 1]
+ [0 0 0 2 0 0 0 0 0 0]
+ [0 0 0 0 2 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 1 0]
+ [0 0 0 0 0 0 2 0 0 0]
+ [0 0 0 0 0 0 0 2 0 0]
+ [0 0 0 0 0 0 0 0 2 0]
+ [0 0 0 0 1 0 0 0 0 1]]
+                       precision    recall  f1-score   support
+C:\Users\rubiarg\Anaconda3\envs\tensorflow\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+
+  'precision', 'predicted', average, warn_for)
+   data\sampleacalmar       1.00      1.00      1.00         2
+    data\sampleacusar       0.00      0.00      0.00         2
+ data\sampleaniquilar       1.00      0.50      0.67         2
+data\sampleapaixonado       1.00      1.00      1.00         2
+  data\sampleengordar       0.50      1.00      0.67         2
+data\samplefelicidade       0.00      0.00      0.00         2
+     data\samplemagro       0.67      1.00      0.80         2
+   data\samplesortudo       1.00      1.00      1.00         2
+  data\samplesurpresa       0.67      1.00      0.80         2
+   data\samplezangado       0.33      0.50      0.40         2
+
+          avg / total       0.62      0.70      0.63        20
+
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+[Parallel(n_jobs=-1)]: Done  42 tasks      | elapsed:   15.7s
+[Parallel(n_jobs=-1)]: Done 192 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=-1)]: Done 300 out of 300 | elapsed:  1.9min finished
+Best Params ::
+{'bootstrap': True,
+ 'max_depth': 90,
+ 'max_features': 'log2',
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 2,
+ 'n_estimators': 400}
+Train Accuracy ::  1.0
+C:\Users\rubiarg\Anaconda3\envs\tensorflow\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+Test Accuracy  ::  70.0
+Confusion matrix ::
+ [[2 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 1 0 0 1]
+ [0 0 1 0 0 0 0 0 0 1]
+  'precision', 'predicted', average, warn_for)
+ [0 0 0 2 0 0 0 0 0 0]
+ [0 0 0 0 2 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 1 0]
+ [0 0 0 0 0 0 2 0 0 0]
+ [0 0 0 0 0 0 0 2 0 0]
+ [0 0 0 0 0 0 0 0 2 0]
+ [0 0 0 0 1 0 0 0 0 1]]
+                       precision    recall  f1-score   support
+
+   data\sampleacalmar       1.00      1.00      1.00         2
+    data\sampleacusar       0.00      0.00      0.00         2
+ data\sampleaniquilar       1.00      0.50      0.67         2
+data\sampleapaixonado       1.00      1.00      1.00         2
+  data\sampleengordar       0.50      1.00      0.67         2
+data\samplefelicidade       0.00      0.00      0.00         2
+     data\samplemagro       0.67      1.00      0.80         2
+   data\samplesortudo       1.00      1.00      1.00         2
+  data\samplesurpresa       0.67      1.00      0.80         2
+   data\samplezangado       0.33      0.50      0.40         2
+
+          avg / total       0.62      0.70      0.63        20
+
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+[Parallel(n_jobs=-1)]: Done  42 tasks      | elapsed:   13.3s
+[Parallel(n_jobs=-1)]: Done 192 tasks      | elapsed:  1.2min
+[Parallel(n_jobs=-1)]: Done 300 out of 300 | elapsed:  1.9min finished
+Best Params ::
+{'bootstrap': True,
+ 'max_depth': 70,
+ 'max_features': 'log2',
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 2,
+ 'n_estimators': 800}
+C:\Users\rubiarg\Anaconda3\envs\tensorflow\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+Train Accuracy ::  1.0
+  'precision', 'predicted', average, warn_for)
+Test Accuracy  ::  70.0
+Confusion matrix ::
+ [[2 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 1 0 0 1]
+ [0 0 1 0 0 0 0 0 0 1]
+ [0 0 0 2 0 0 0 0 0 0]
+ [0 0 0 0 2 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 1 0]
+ [0 0 0 0 0 0 2 0 0 0]
+ [0 0 0 0 0 0 0 2 0 0]
+ [0 0 0 0 0 0 0 0 2 0]
+ [0 0 0 0 1 0 0 0 0 1]]
+                       precision    recall  f1-score   support
+
+   data\sampleacalmar       1.00      1.00      1.00         2
+    data\sampleacusar       0.00      0.00      0.00         2
+ data\sampleaniquilar       1.00      0.50      0.67         2
+data\sampleapaixonado       1.00      1.00      1.00         2
+  data\sampleengordar       0.50      1.00      0.67         2
+data\samplefelicidade       0.00      0.00      0.00         2
+     data\samplemagro       0.67      1.00      0.80         2
+   data\samplesortudo       1.00      1.00      1.00         2
+  data\samplesurpresa       0.67      1.00      0.80         2
+   data\samplezangado       0.33      0.50      0.40         2
+
+          avg / total       0.62      0.70      0.63        20
+
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+[Parallel(n_jobs=-1)]: Done  42 tasks      | elapsed:   17.4s
+[Parallel(n_jobs=-1)]: Done 192 tasks      | elapsed:  1.3min
+[Parallel(n_jobs=-1)]: Done 300 out of 300 | elapsed:  2.0min finished
+Best Params ::
+{'bootstrap': False,
+ 'max_depth': 100,
+ 'max_features': 'log2',
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 2,
+ 'n_estimators': 200}
+C:\Users\rubiarg\Anaconda3\envs\tensorflow\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Train Accuracy ::  1.0
+Test Accuracy  ::  70.0
+Confusion matrix ::
+ [[2 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 1 0 0 1]
+ [0 0 1 0 0 0 0 0 0 1]
+ [0 0 0 2 0 0 0 0 0 0]
+ [0 0 0 0 2 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 1 0]
+ [0 0 0 0 0 0 2 0 0 0]
+ [0 0 0 0 0 0 0 2 0 0]
+ [0 0 0 0 0 0 0 0 2 0]
+ [0 0 0 0 1 0 0 0 0 1]]
+                       precision    recall  f1-score   support
+
+   data\sampleacalmar       1.00      1.00      1.00         2
+    data\sampleacusar       0.00      0.00      0.00         2
+ data\sampleaniquilar       1.00      0.50      0.67         2
+data\sampleapaixonado       1.00      1.00      1.00         2
+  data\sampleengordar       0.50      1.00      0.67         2
+data\samplefelicidade       0.00      0.00      0.00         2
+     data\samplemagro       0.67      1.00      0.80         2
+   data\samplesortudo       1.00      1.00      1.00         2
+  data\samplesurpresa       0.67      1.00      0.80         2
+   data\samplezangado       0.33      0.50      0.40         2
+
+          avg / total       0.62      0.70      0.63        20
+
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+[Parallel(n_jobs=-1)]: Done  42 tasks      | elapsed:   17.4s
+[Parallel(n_jobs=-1)]: Done 192 tasks      | elapsed:  1.4min
+[Parallel(n_jobs=-1)]: Done 300 out of 300 | elapsed:  2.0min finished
+Best Params ::
+{'bootstrap': True,
+ 'max_depth': 50,
+ 'max_features': 'log2',
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 2,
+ 'n_estimators': 1200}
+Train Accuracy ::  1.0
+C:\Users\rubiarg\Anaconda3\envs\tensorflow\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+Test Accuracy  ::  70.0
+  'precision', 'predicted', average, warn_for)
+Confusion matrix ::
+ [[2 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 1 0 0 1]
+ [0 0 1 0 0 0 0 0 0 1]
+ [0 0 0 2 0 0 0 0 0 0]
+ [0 0 0 0 2 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 1 0]
+ [0 0 0 0 0 0 2 0 0 0]
+ [0 0 0 0 0 0 0 2 0 0]
+ [0 0 0 0 0 0 0 0 2 0]
+ [0 0 0 0 1 0 0 0 0 1]]
+                       precision    recall  f1-score   support
+
+   data\sampleacalmar       1.00      1.00      1.00         2
+    data\sampleacusar       0.00      0.00      0.00         2
+ data\sampleaniquilar       1.00      0.50      0.67         2
+data\sampleapaixonado       1.00      1.00      1.00         2
+  data\sampleengordar       0.50      1.00      0.67         2
+data\samplefelicidade       0.00      0.00      0.00         2
+     data\samplemagro       0.67      1.00      0.80         2
+   data\samplesortudo       1.00      1.00      1.00         2
+  data\samplesurpresa       0.67      1.00      0.80         2
+   data\samplezangado       0.33      0.50      0.40         2
+
+          avg / total       0.62      0.70      0.63        20
+
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+[Parallel(n_jobs=-1)]: Done  42 tasks      | elapsed:   17.5s
+[Parallel(n_jobs=-1)]: Done 192 tasks      | elapsed:  1.4min
+[Parallel(n_jobs=-1)]: Done 300 out of 300 | elapsed:  2.2min finished
+Best Params ::
+{'bootstrap': True,
+ 'max_depth': 30,
+ 'max_features': 'log2',
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 2,
+ 'n_estimators': 1600}
+Train Accuracy ::  1.0
+C:\Users\rubiarg\Anaconda3\envs\tensorflow\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+Test Accuracy  ::  75.0
+  'precision', 'predicted', average, warn_for)
+Confusion matrix ::
+ [[2 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 1 0 0 1]
+ [0 0 2 0 0 0 0 0 0 0]
+ [0 0 0 2 0 0 0 0 0 0]
+ [0 0 0 0 2 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 1 0]
+ [0 0 0 0 0 0 2 0 0 0]
+ [0 0 0 0 0 0 0 2 0 0]
+ [0 0 0 0 0 0 0 0 2 0]
+ [0 0 0 0 1 0 0 0 0 1]]
+                       precision    recall  f1-score   support
+
+   data\sampleacalmar       1.00      1.00      1.00         2
+    data\sampleacusar       0.00      0.00      0.00         2
+ data\sampleaniquilar       1.00      1.00      1.00         2
+data\sampleapaixonado       1.00      1.00      1.00         2
+  data\sampleengordar       0.50      1.00      0.67         2
+data\samplefelicidade       0.00      0.00      0.00         2
+     data\samplemagro       0.67      1.00      0.80         2
+   data\samplesortudo       1.00      1.00      1.00         2
+  data\samplesurpresa       0.67      1.00      0.80         2
+   data\samplezangado       0.50      0.50      0.50         2
+
+          avg / total       0.63      0.75      0.68        20
+
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+[Parallel(n_jobs=-1)]: Done  42 tasks      | elapsed:   13.2s
+[Parallel(n_jobs=-1)]: Done 192 tasks      | elapsed:  1.2min
+[Parallel(n_jobs=-1)]: Done 300 out of 300 | elapsed:  2.0min finished
+Best Params ::
+{'bootstrap': True,
+ 'max_depth': 60,
+ 'max_features': 'sqrt',
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 2,
+ 'n_estimators': 600}
+Train Accuracy ::  1.0
+C:\Users\rubiarg\Anaconda3\envs\tensorflow\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+Test Accuracy  ::  70.0
+  'precision', 'predicted', average, warn_for)
+Confusion matrix ::
+ [[2 0 0 0 0 0 0 0 0 0]
+ [0 1 0 0 0 0 0 0 0 1]
+ [0 0 1 0 0 0 0 0 0 1]
+ [1 0 0 1 0 0 0 0 0 0]
+ [0 0 0 0 2 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 1 0]
+ [0 0 0 0 0 0 2 0 0 0]
+ [0 0 0 0 0 0 0 2 0 0]
+ [0 0 0 0 0 0 0 0 2 0]
+ [0 0 0 0 1 0 0 0 0 1]]
+                       precision    recall  f1-score   support
+
+   data\sampleacalmar       0.67      1.00      0.80         2
+    data\sampleacusar       1.00      0.50      0.67         2
+ data\sampleaniquilar       1.00      0.50      0.67         2
+data\sampleapaixonado       1.00      0.50      0.67         2
+  data\sampleengordar       0.50      1.00      0.67         2
+data\samplefelicidade       0.00      0.00      0.00         2
+     data\samplemagro       1.00      1.00      1.00         2
+   data\samplesortudo       1.00      1.00      1.00         2
+  data\samplesurpresa       0.67      1.00      0.80         2
+   data\samplezangado       0.33      0.50      0.40         2
+
+          avg / total       0.72      0.70      0.67        20
+
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+[Parallel(n_jobs=-1)]: Done  42 tasks      | elapsed:   17.2s
+[Parallel(n_jobs=-1)]: Done 192 tasks      | elapsed:  1.2min
+[Parallel(n_jobs=-1)]: Done 300 out of 300 | elapsed:  1.8min finished
+Best Params ::
+{'bootstrap': True,
+ 'max_depth': 70,
+ 'max_features': 'log2',
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 2,
+ 'n_estimators': 400}
+C:\Users\rubiarg\Anaconda3\envs\tensorflow\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Train Accuracy ::  1.0
+Test Accuracy  ::  75.0
+Confusion matrix ::
+ [[2 0 0 0 0 0 0 0 0 0]
+ [0 1 0 0 0 0 1 0 0 0]
+ [0 0 1 0 0 0 0 0 0 1]
+ [0 0 0 2 0 0 0 0 0 0]
+ [0 0 0 0 2 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 1 0]
+ [0 0 0 0 0 0 2 0 0 0]
+ [0 0 0 0 0 0 0 2 0 0]
+ [0 0 0 0 0 0 0 0 2 0]
+ [0 0 0 0 1 0 0 0 0 1]]
+                       precision    recall  f1-score   support
+
+   data\sampleacalmar       1.00      1.00      1.00         2
+    data\sampleacusar       1.00      0.50      0.67         2
+ data\sampleaniquilar       1.00      0.50      0.67         2
+data\sampleapaixonado       1.00      1.00      1.00         2
+  data\sampleengordar       0.50      1.00      0.67         2
+data\samplefelicidade       0.00      0.00      0.00         2
+     data\samplemagro       0.67      1.00      0.80         2
+   data\samplesortudo       1.00      1.00      1.00         2
+  data\samplesurpresa       0.67      1.00      0.80         2
+   data\samplezangado       0.50      0.50      0.50         2
+
+          avg / total       0.73      0.75      0.71        20
+
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+[Parallel(n_jobs=-1)]: Done  42 tasks      | elapsed:   20.7s
+[Parallel(n_jobs=-1)]: Done 192 tasks      | elapsed:  1.4min
+[Parallel(n_jobs=-1)]: Done 300 out of 300 | elapsed:  2.1min finished
+Best Params ::
+{'bootstrap': True,
+ 'max_depth': 30,
+ 'max_features': 'log2',
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 2,
+ 'n_estimators': 2000}
+C:\Users\rubiarg\Anaconda3\envs\tensorflow\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Train Accuracy ::  1.0
+Test Accuracy  ::  75.0
+Confusion matrix ::
+ [[2 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 1 0 0 1]
+ [0 0 2 0 0 0 0 0 0 0]
+ [0 0 0 2 0 0 0 0 0 0]
+ [0 0 0 0 2 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 1 0]
+ [0 0 0 0 0 0 2 0 0 0]
+ [0 0 0 0 0 0 0 2 0 0]
+ [0 0 0 0 0 0 0 0 2 0]
+ [0 0 0 0 1 0 0 0 0 1]]
+                       precision    recall  f1-score   support
+
+   data\sampleacalmar       1.00      1.00      1.00         2
+    data\sampleacusar       0.00      0.00      0.00         2
+ data\sampleaniquilar       1.00      1.00      1.00         2
+data\sampleapaixonado       1.00      1.00      1.00         2
+  data\sampleengordar       0.50      1.00      0.67         2
+data\samplefelicidade       0.00      0.00      0.00         2
+     data\samplemagro       0.67      1.00      0.80         2
+   data\samplesortudo       1.00      1.00      1.00         2
+  data\samplesurpresa       0.67      1.00      0.80         2
+   data\samplezangado       0.50      0.50      0.50         2
+
+          avg / total       0.63      0.75      0.68        20
+
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+[Parallel(n_jobs=-1)]: Done  42 tasks      | elapsed:   13.9s
+[Parallel(n_jobs=-1)]: Done 192 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=-1)]: Done 300 out of 300 | elapsed:  1.8min finished
+Best Params ::
+{'bootstrap': True,
+ 'max_depth': 40,
+ 'max_features': 'log2',
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 2,
+ 'n_estimators': 1200}
+C:\Users\rubiarg\Anaconda3\envs\tensorflow\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Train Accuracy ::  1.0
+Test Accuracy  ::  70.0
+Confusion matrix ::
+ [[2 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 1 0 0 1]
+ [0 0 1 0 0 0 0 0 0 1]
+ [0 0 0 2 0 0 0 0 0 0]
+ [0 0 0 0 2 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 1 0]
+ [0 0 0 0 0 0 2 0 0 0]
+ [0 0 0 0 0 0 0 2 0 0]
+ [0 0 0 0 0 0 0 0 2 0]
+ [0 0 0 0 1 0 0 0 0 1]]
+                       precision    recall  f1-score   support
+
+   data\sampleacalmar       1.00      1.00      1.00         2
+    data\sampleacusar       0.00      0.00      0.00         2
+ data\sampleaniquilar       1.00      0.50      0.67         2
+data\sampleapaixonado       1.00      1.00      1.00         2
+  data\sampleengordar       0.50      1.00      0.67         2
+data\samplefelicidade       0.00      0.00      0.00         2
+     data\samplemagro       0.67      1.00      0.80         2
+   data\samplesortudo       1.00      1.00      1.00         2
+  data\samplesurpresa       0.67      1.00      0.80         2
+   data\samplezangado       0.33      0.50      0.40         2
+
+          avg / total       0.62      0.70      0.63        20
+
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+[Parallel(n_jobs=-1)]: Done  42 tasks      | elapsed:   16.3s
+[Parallel(n_jobs=-1)]: Done 192 tasks      | elapsed:  1.1min
+[Parallel(n_jobs=-1)]: Done 300 out of 300 | elapsed:  1.7min finished
+Best Params ::
+{'bootstrap': True,
+ 'max_depth': 100,
+ 'max_features': 'sqrt',
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 2,
+ 'n_estimators': 1000}
+Train Accuracy ::  1.0
+C:\Users\rubiarg\Anaconda3\envs\tensorflow\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+Test Accuracy  ::  75.0
+  'precision', 'predicted', average, warn_for)
+Confusion matrix ::
+ [[2 0 0 0 0 0 0 0 0 0]
+ [0 1 0 0 0 0 0 0 0 1]
+ [0 0 1 0 0 0 0 0 0 1]
+ [0 0 0 2 0 0 0 0 0 0]
+ [0 0 0 0 2 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 1 0]
+ [0 0 0 0 0 0 2 0 0 0]
+ [0 0 0 0 0 0 0 2 0 0]
+ [0 0 0 0 0 0 0 0 2 0]
+ [0 0 0 0 1 0 0 0 0 1]]
+                       precision    recall  f1-score   support
+
+   data\sampleacalmar       1.00      1.00      1.00         2
+    data\sampleacusar       1.00      0.50      0.67         2
+ data\sampleaniquilar       1.00      0.50      0.67         2
+data\sampleapaixonado       1.00      1.00      1.00         2
+  data\sampleengordar       0.50      1.00      0.67         2
+data\samplefelicidade       0.00      0.00      0.00         2
+     data\samplemagro       1.00      1.00      1.00         2
+   data\samplesortudo       1.00      1.00      1.00         2
+  data\samplesurpresa       0.67      1.00      0.80         2
+   data\samplezangado       0.33      0.50      0.40         2
+
+          avg / total       0.75      0.75      0.72        20
+
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+[Parallel(n_jobs=-1)]: Done  42 tasks      | elapsed:   17.0s
+[Parallel(n_jobs=-1)]: Done 192 tasks      | elapsed:  1.2min
+[Parallel(n_jobs=-1)]: Done 300 out of 300 | elapsed:  2.0min finished
+Best Params ::
+{'bootstrap': True,
+ 'max_depth': 30,
+ 'max_features': 'log2',
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 2,
+ 'n_estimators': 1800}
+Train Accuracy ::  1.0
+C:\Users\rubiarg\Anaconda3\envs\tensorflow\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+Test Accuracy  ::  70.0
+  'precision', 'predicted', average, warn_for)
+Confusion matrix ::
+ [[2 0 0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 1 0 0 1]
+ [0 0 1 0 0 0 0 0 0 1]
+ [0 0 0 2 0 0 0 0 0 0]
+ [0 0 0 0 2 0 0 0 0 0]
+ [0 0 0 0 1 0 0 0 1 0]
+ [0 0 0 0 0 0 2 0 0 0]
+ [0 0 0 0 0 0 0 2 0 0]
+ [0 0 0 0 0 0 0 0 2 0]
+ [0 0 0 0 1 0 0 0 0 1]]
+                       precision    recall  f1-score   support
+
+   data\sampleacalmar       1.00      1.00      1.00         2
+    data\sampleacusar       0.00      0.00      0.00         2
+ data\sampleaniquilar       1.00      0.50      0.67         2
+data\sampleapaixonado       1.00      1.00      1.00         2
+  data\sampleengordar       0.50      1.00      0.67         2
+data\samplefelicidade       0.00      0.00      0.00         2
+     data\samplemagro       0.67      1.00      0.80         2
+   data\samplesortudo       1.00      1.00      1.00         2
+  data\samplesurpresa       0.67      1.00      0.80         2
+   data\samplezangado       0.33      0.50      0.40         2
+
+          avg / total       0.62      0.70      0.63        20
+
+
+Process finished with exit code 0
