@@ -5,7 +5,7 @@ from typing import List
 
 
 def labelname(file_name):
-    label = file_name.replace("data-libras/sample", "").lower()
+    label = file_name.replace("data/points/sample", "").lower()
     return label.replace(".mat", "")
 
 
@@ -36,7 +36,7 @@ def sigvalues(sig):
 
 if __name__ == "__main__":
 
-    files = gl.glob("data/*.mat")  # type: list
+    files = gl.glob("data/points/*.mat")  # type: list
 
     signals = []  # type: List[Signal]
 
