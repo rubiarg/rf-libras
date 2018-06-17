@@ -1,0 +1,330 @@
+                precision    recall  f1-score   support
+
+         angry       1.00      1.00      1.00         6
+     disgusted       1.00      0.75      0.86         4
+       fearful       0.67      1.00      0.80         2
+         happy       0.67      0.50      0.57         4
+           sad       0.50      0.50      0.50         2
+     surprised       0.67      1.00      0.80         2
+
+   avg / total       0.82      0.80      0.80        20
+
+                precision    recall  f1-score   support
+
+         angry       1.00      1.00      1.00         6
+     disgusted       1.00      0.75      0.86         4
+       fearful       0.67      1.00      0.80         2
+         happy       0.67      0.50      0.57         4
+           sad       0.50      0.50      0.50         2
+     surprised       0.67      1.00      0.80         2
+
+   avg / total       0.82      0.80      0.80        20
+
+                precision    recall  f1-score   support
+
+         angry       1.00      1.00      1.00         6
+     disgusted       1.00      0.75      0.86         4
+       fearful       0.67      1.00      0.80         2
+         happy       0.67      0.50      0.57         4
+           sad       0.50      0.50      0.50         2
+     surprised       0.67      1.00      0.80         2
+
+   avg / total       0.82      0.80      0.80        20
+
+                precision    recall  f1-score   support
+
+         angry       1.00      1.00      1.00         6
+     disgusted       0.75      0.75      0.75         4
+       fearful       1.00      1.00      1.00         2
+         happy       0.67      0.50      0.57         4
+           sad       0.50      0.50      0.50         2
+     surprised       0.67      1.00      0.80         2
+
+   avg / total       0.80      0.80      0.79        20
+
+                precision    recall  f1-score   support
+
+         angry       1.00      1.00      1.00         6
+     disgusted       1.00      0.75      0.86         4
+       fearful       0.67      1.00      0.80         2
+         happy       0.67      0.50      0.57         4
+           sad       0.50      0.50      0.50         2
+     surprised       0.67      1.00      0.80         2
+
+   avg / total       0.82      0.80      0.80        20
+
+                precision    recall  f1-score   support
+
+         angry       1.00      1.00      1.00         6
+     disgusted       0.75      0.75      0.75         4
+       fearful       1.00      1.00      1.00         2
+         happy       0.67      0.50      0.57         4
+           sad       0.50      0.50      0.50         2
+     surprised       0.67      1.00      0.80         2
+
+   avg / total       0.80      0.80      0.79        20
+
+                precision    recall  f1-score   support
+
+         angry       1.00      1.00      1.00         6
+     disgusted       1.00      0.75      0.86         4
+       fearful       0.67      1.00      0.80         2
+         happy       0.67      0.50      0.57         4
+           sad       0.50      0.50      0.50         2
+     surprised       0.67      1.00      0.80         2
+
+   avg / total       0.82      0.80      0.80        20
+
+                precision    recall  f1-score   support
+
+         angry       1.00      1.00      1.00         6
+     disgusted       0.75      0.75      0.75         4
+       fearful       1.00      1.00      1.00         2
+         happy       0.67      0.50      0.57         4
+           sad       0.50      0.50      0.50         2
+     surprised       0.67      1.00      0.80         2
+
+   avg / total       0.80      0.80      0.79        20
+
+                precision    recall  f1-score   support
+
+         angry       1.00      1.00      1.00         6
+     disgusted       1.00      0.75      0.86         4
+       fearful       0.67      1.00      0.80         2
+         happy       0.67      0.50      0.57         4
+           sad       0.50      0.50      0.50         2
+     surprised       0.67      1.00      0.80         2
+
+   avg / total       0.82      0.80      0.80        20
+
+                precision    recall  f1-score   support
+
+         angry       1.00      1.00      1.00         6
+     disgusted       1.00      0.75      0.86         4
+       fearful       0.67      1.00      0.80         2
+         happy       0.67      0.50      0.57         4
+           sad       0.50      0.50      0.50         2
+     surprised       0.67      1.00      0.80         2
+
+   avg / total       0.82      0.80      0.80        20
+
+                precision    recall  f1-score   support
+
+         angry       1.00      1.00      1.00         6
+     disgusted       1.00      0.75      0.86         4
+       fearful       0.67      1.00      0.80         2
+         happy       0.67      0.50      0.57         4
+           sad       0.50      0.50      0.50         2
+     surprised       0.67      1.00      0.80         2
+
+   avg / total       0.82      0.80      0.80        20
+
+                precision    recall  f1-score   support
+
+         angry       1.00      1.00      1.00         6
+     disgusted       1.00      0.75      0.86         4
+       fearful       0.67      1.00      0.80         2
+         happy       0.67      0.50      0.57         4
+           sad       0.50      0.50      0.50         2
+     surprised       0.67      1.00      0.80         2
+
+   avg / total       0.82      0.80      0.80        20
+
+                precision    recall  f1-score   support
+
+         angry       1.00      1.00      1.00         6
+     disgusted       1.00      0.75      0.86         4
+       fearful       0.67      1.00      0.80         2
+         happy       0.67      0.50      0.57         4
+           sad       0.50      0.50      0.50         2
+     surprised       0.67      1.00      0.80         2
+
+   avg / total       0.82      0.80      0.80        20
+
+                precision    recall  f1-score   support
+
+         angry       1.00      1.00      1.00         6
+     disgusted       1.00      0.75      0.86         4
+       fearful       0.67      1.00      0.80         2
+         happy       0.67      0.50      0.57         4
+           sad       0.50      0.50      0.50         2
+     surprised       0.67      1.00      0.80         2
+
+   avg / total       0.82      0.80      0.80        20
+
+                precision    recall  f1-score   support
+
+         angry       1.00      1.00      1.00         6
+     disgusted       1.00      0.75      0.86         4
+       fearful       0.67      1.00      0.80         2
+         happy       0.67      0.50      0.57         4
+           sad       0.50      0.50      0.50         2
+     surprised       0.67      1.00      0.80         2
+
+   avg / total       0.82      0.80      0.80        20
+
+                precision    recall  f1-score   support
+
+         angry       1.00      1.00      1.00         6
+     disgusted       1.00      0.75      0.86         4
+       fearful       0.67      1.00      0.80         2
+         happy       0.67      0.50      0.57         4
+           sad       0.50      0.50      0.50         2
+     surprised       0.67      1.00      0.80         2
+
+   avg / total       0.82      0.80      0.80        20
+
+                precision    recall  f1-score   support
+
+         angry       1.00      1.00      1.00         6
+     disgusted       1.00      0.75      0.86         4
+       fearful       0.67      1.00      0.80         2
+         happy       0.67      0.50      0.57         4
+           sad       0.50      0.50      0.50         2
+     surprised       0.67      1.00      0.80         2
+
+   avg / total       0.82      0.80      0.80        20
+
+                precision    recall  f1-score   support
+
+         angry       1.00      1.00      1.00         6
+     disgusted       1.00      0.75      0.86         4
+       fearful       0.67      1.00      0.80         2
+         happy       0.67      0.50      0.57         4
+           sad       0.50      0.50      0.50         2
+     surprised       0.67      1.00      0.80         2
+
+   avg / total       0.82      0.80      0.80        20
+
+                precision    recall  f1-score   support
+
+         angry       1.00      1.00      1.00         6
+     disgusted       1.00      0.75      0.86         4
+       fearful       0.67      1.00      0.80         2
+         happy       0.67      0.50      0.57         4
+           sad       0.50      0.50      0.50         2
+     surprised       0.67      1.00      0.80         2
+
+   avg / total       0.82      0.80      0.80        20
+
+                precision    recall  f1-score   support
+
+         angry       1.00      1.00      1.00         6
+     disgusted       1.00      0.75      0.86         4
+       fearful       0.67      1.00      0.80         2
+         happy       0.67      0.50      0.57         4
+           sad       0.50      0.50      0.50         2
+     surprised       0.67      1.00      0.80         2
+
+   avg / total       0.82      0.80      0.80        20
+
+                precision    recall  f1-score   support
+
+         angry       1.00      1.00      1.00         6
+     disgusted       1.00      0.75      0.86         4
+       fearful       0.67      1.00      0.80         2
+         happy       0.67      0.50      0.57         4
+           sad       0.50      0.50      0.50         2
+     surprised       0.67      1.00      0.80         2
+
+   avg / total       0.82      0.80      0.80        20
+
+                precision    recall  f1-score   support
+
+         angry       1.00      1.00      1.00         6
+     disgusted       1.00      0.75      0.86         4
+       fearful       0.67      1.00      0.80         2
+         happy       0.67      0.50      0.57         4
+           sad       0.50      0.50      0.50         2
+     surprised       0.67      1.00      0.80         2
+
+   avg / total       0.82      0.80      0.80        20
+
+                precision    recall  f1-score   support
+
+         angry       1.00      1.00      1.00         6
+     disgusted       1.00      0.75      0.86         4
+       fearful       0.67      1.00      0.80         2
+         happy       0.67      0.50      0.57         4
+           sad       0.50      0.50      0.50         2
+     surprised       0.67      1.00      0.80         2
+
+   avg / total       0.82      0.80      0.80        20
+
+                precision    recall  f1-score   support
+
+         angry       1.00      1.00      1.00         6
+     disgusted       0.75      0.75      0.75         4
+       fearful       1.00      1.00      1.00         2
+         happy       0.67      0.50      0.57         4
+           sad       0.50      0.50      0.50         2
+     surprised       0.67      1.00      0.80         2
+
+   avg / total       0.80      0.80      0.79        20
+
+                precision    recall  f1-score   support
+
+         angry       1.00      1.00      1.00         6
+     disgusted       1.00      0.75      0.86         4
+       fearful       0.67      1.00      0.80         2
+         happy       0.67      0.50      0.57         4
+           sad       0.50      0.50      0.50         2
+     surprised       0.67      1.00      0.80         2
+
+   avg / total       0.82      0.80      0.80        20
+
+                precision    recall  f1-score   support
+
+         angry       1.00      1.00      1.00         6
+     disgusted       0.75      0.75      0.75         4
+       fearful       1.00      1.00      1.00         2
+         happy       0.67      0.50      0.57         4
+           sad       0.50      0.50      0.50         2
+     surprised       0.67      1.00      0.80         2
+
+   avg / total       0.80      0.80      0.79        20
+
+                precision    recall  f1-score   support
+
+         angry       1.00      1.00      1.00         6
+     disgusted       1.00      0.75      0.86         4
+       fearful       0.67      1.00      0.80         2
+         happy       0.67      0.50      0.57         4
+           sad       0.50      0.50      0.50         2
+     surprised       0.67      1.00      0.80         2
+
+   avg / total       0.82      0.80      0.80        20
+
+                precision    recall  f1-score   support
+
+         angry       1.00      1.00      1.00         6
+     disgusted       1.00      0.75      0.86         4
+       fearful       0.67      1.00      0.80         2
+         happy       0.67      0.50      0.57         4
+           sad       0.50      0.50      0.50         2
+     surprised       0.67      1.00      0.80         2
+
+   avg / total       0.82      0.80      0.80        20
+
+                precision    recall  f1-score   support
+
+         angry       1.00      1.00      1.00         6
+     disgusted       1.00      0.75      0.86         4
+       fearful       0.67      1.00      0.80         2
+         happy       0.67      0.50      0.57         4
+           sad       0.50      0.50      0.50         2
+     surprised       0.67      1.00      0.80         2
+
+   avg / total       0.82      0.80      0.80        20
+
+                precision    recall  f1-score   support
+
+         angry       1.00      1.00      1.00         6
+     disgusted       1.00      0.75      0.86         4
+       fearful       0.67      1.00      0.80         2
+         happy       0.67      0.50      0.57         4
+           sad       0.50      0.50      0.50         2
+     surprised       0.67      1.00      0.80         2
+
+   avg / total       0.82      0.80      0.80        20
+
